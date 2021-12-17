@@ -73,7 +73,7 @@ useEffect(() => {
       }
   }, [choiceOne, choiceTwo]
   )
-  
+
 console.log(cards)
 
 
@@ -99,7 +99,7 @@ console.log(cards)
               key={card.id} 
               card={card}
               handleChoice= {handleChoice}
-              flipped={card === choiceOne || card == choiceTwo || card.matched}
+              flipped={card === choiceOne || card === choiceTwo || card.matched}
               disabled={disabled}
               />
           ))}
