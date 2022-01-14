@@ -1,5 +1,5 @@
 # Philips Magic Memory Game
-
+![Match](Match.gif)
 Functional Matching game showcasing useState & useEffect hooks
 
 ## Available Scripts
